@@ -1,0 +1,88 @@
+body {background-image: url();
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    }
+    html{
+        @media screen and (max-width: 540px) {
+            font-size:12px;
+        }
+    }
+iframe{
+    border: 0;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    overflow: hidden;
+}
+.art{
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.bold{
+    font-family: 'Raleway', sans-serif;
+    padding: 20px;
+    padding-right: 20px;
+}
+
+header{
+    display: flex;
+    height: 50px;
+    justify-content: space-between;
+    margin: 0;
+    align-items: center;
+    padding: 10px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.logo {
+    display: flex;
+    font-family: 'Sacramento', cursive;
+    
+}
+.logo img{
+    margin-right: 10px;
+    height: 0px;
+}
+nav a{
+    padding-left: 10px;
+}
+nav a:hover{
+    color: rgb(224, 206, 206);
+}
+.text{
+    display: flex;
+    color: aliceblue;
+    font-family: 'Raleway', sans-serif;
+    width: 50%;
+}
+.texth1{
+    display: flex;
+    color: aliceblue;
+    font-family: 'Libre Baskerville', serif;
+    width: 50%;
+}
+.textc{
+    background-image: url(img/arte.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+@media (max-widht: 600px){
+    header{
+        flex-direction: column;
+    }
+    nav {
+        padding: 10px 0px;
+    }
+}

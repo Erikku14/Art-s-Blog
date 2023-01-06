@@ -1,0 +1,10 @@
+.whte{
+    color: aliceblue;
+}
+header{
+    display: flex;
+}
+.logo img{
+    height: 50px;;
+
+}
