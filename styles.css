@@ -77,6 +77,68 @@ nav a:hover{
     flex-direction: column;
     
 }
+.history{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:30px;
+    margin-left: 190px;
+    margin-right: 60px;
+}
+.historyt{
+    font-size: 1.3rem;
+    font-family: 'Raleway', sans-serif;
+    align-items: baseline;
+    margin-right: 160px;
+    margin-left: 50px;
+}
+.types{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+.shadow{
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+  transition: transform ease 0.5s, box-shadow ease 0.5s;
+}
+.shadow:hover{
+    transform: translateY(-5px);
+    box-shadow: 0px 10px 20px 2px rgb(114, 114, 114);
+}
+.tyt{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 200px;
+    margin-right: 200px;
+    font-family: 'Raleway', sans-serif;
+}
+.clase{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:30px;
+    margin-left: 190px;
+    margin-right: 190px;
+    margin-bottom: 20px;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    transition: transform ease 0.5s, box-shadow ease 0.5s;
+}
+.clase:hover{
+    transform: translateY(-5px);
+    box-shadow: 0px 10px 20px 2px rgb(114, 114, 114);
+}
+.goup{
+	font-size: 50px;
+    color:rgb(142, 232, 248);
+	bottom:0px;
+	display: block;
+	height: 70px;
+	position: fixed;
+	right:0px;
+	width:80px;
+}
 
 @media (max-widht: 600px){
     header{
