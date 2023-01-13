@@ -1,4 +1,5 @@
-body {background-image: url();
+
+  body {background-image: url();
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0;
@@ -29,7 +30,7 @@ iframe{
 
 header{
     display: flex;
-    height: 50px;
+    min-height: 50px;
     justify-content: space-between;
     margin: 0;
     align-items: center;
@@ -55,12 +56,14 @@ nav a:hover{
     color: rgb(224, 206, 206);
 }
 .text{
+    font-size: 1.7rem;
     display: flex;
     color: aliceblue;
     font-family: 'Raleway', sans-serif;
     width: 50%;
 }
 .texth1{
+    font-size:2.5rem;
     display: flex;
     color: aliceblue;
     font-family: 'Libre Baskerville', serif;
@@ -77,6 +80,9 @@ nav a:hover{
     flex-direction: column;
     
 }
+.historyimg{
+    width: 300px;
+}
 .history{
     display: flex;
     align-items: center;
@@ -92,6 +98,11 @@ nav a:hover{
     margin-right: 160px;
     margin-left: 50px;
 }
+.credih{
+    margin-left: 190px; 
+    margin-top: 10px; 
+    margin-bottom: 30px;
+}
 .types{
     display: flex;
     align-items: center;
@@ -106,6 +117,9 @@ nav a:hover{
 .shadow:hover{
     transform: translateY(-5px);
     box-shadow: 0px 10px 20px 2px rgb(114, 114, 114);
+}
+.typesimg{
+    width: 350px;
 }
 .tyt{
     display: flex;
@@ -125,6 +139,9 @@ nav a:hover{
     box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
     transition: transform ease 0.5s, box-shadow ease 0.5s;
 }
+.claseimg{
+    width: 300px;
+}
 .clase:hover{
     transform: translateY(-5px);
     box-shadow: 0px 10px 20px 2px rgb(114, 114, 114);
@@ -139,12 +156,139 @@ nav a:hover{
 	right:0px;
 	width:80px;
 }
-
-@media (max-widht: 600px){
+/*--------------------------------------------------------------------------------------------------------------------------------------*/
+@media screen and (max-width: 700px) {
+    .art{
+        top: 0;
+        left: 0;
+        width: 100%;
+    }
+    .bold{
+        font-family: 'Raleway', sans-serif;
+        
+    }
+    
     header{
         flex-direction: column;
+       padding: 5px;
     }
-    nav {
-        padding: 10px 0px;
+    a{
+        text-decoration: none;
+        color: black;
+    }
+    .logo {
+        align-items: center;
+        font-family: 'Sacramento', cursive;
+        font-size: 15px;
+    }
+    nav a{
+        font-size: 15px;
+    }
+    nav a:hover{
+        color: rgb(224, 206, 206);
+    }
+    .text{
+        font-size: 0.7rem;
+        display: flex;
+        color: aliceblue;
+        font-family: 'Raleway', sans-serif;
+        width: 50%;
+    }
+    .texth1{
+        font-size: 0.7rem;
+        display: flex;
+        color: aliceblue;
+        font-family: 'Libre Baskerville', serif;
+        width: 50%;
+    }
+    .textc{
+        background-image: url(img/arte.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        
+    }
+    .historyimg{
+        width: 130px;
+    }
+    .history{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top:10px;
+        margin-left: 10px;
+        margin-right: 10px;
+      
+    }
+    .historyt{
+        font-size: 10px;
+        font-family: 'Raleway', sans-serif;
+        align-items: baseline;
+        margin-right: 10px;
+        margin-left: 28px;
+    }
+    .credih{
+        font-size: 10px;
+        margin-left: 10px; 
+        margin-top: 5px; 
+        margin-bottom: 10px;
+    }
+    .types{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .typesimg{
+        width: 110px;
+    }
+    .shadow{
+        box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+      transition: transform ease 0.5s, box-shadow ease 0.5s;
+    }
+    .shadow:hover{
+        transform: translateY(-5px);
+        box-shadow: 0px 10px 20px 2px rgb(114, 114, 114);
+    }
+    .tyt{
+        display: flex;
+        font-size: 10px;
+        justify-content: space-between;
+        margin-left: 40px;
+        margin-right: 40px;
+        font-family: 'Raleway', sans-serif;
+    }
+    .clase{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top:10px;
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-bottom: 20px;
+        box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+        transition: transform ease 0.5s, box-shadow ease 0.5s;
+    }
+    .claseimg{
+        width: 130px;
+    }
+    .clase:hover{
+        transform: translateY(-5px);
+        box-shadow: 0px 10px 20px 2px rgb(114, 114, 114);
+    }
+    .goup{
+        font-size: 50px;
+        color:rgb(142, 232, 248);
+        bottom:0px;
+        display: block;
+        height: 70px;
+        position: fixed;
+        right:0px;
+        width:80px;
     }
 }
